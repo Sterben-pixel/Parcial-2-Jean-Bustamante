@@ -1,0 +1,242 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-container a{
+    color: #ffff;
+}
+
+.header-main{
+    position: relative;
+    height: 600px;
+    background-color:black;
+}
+
+.principal-section-header{
+    position: relative;
+    color: #ffff;
+}
+
+.header-main::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.redd.it/fc75qvps3a051.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+
+
+.nav-container{
+    height: 100px;
+}
+
+.ms-100{
+    margin-left: 100px;
+}
+
+.me-100{
+    margin-right: 100px;
+}
+
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-separate{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gap{
+    gap: 10%;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.border-top{
+    border-top: lightslategray solid 0.5px;
+}
+
+.border-right-left{
+    border-right: solid lightslategrey 0.7px;
+    border-left: solid lightslategray 0.7px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.textdeco{
+    font-weight: 200;
+    font-size: small;
+    color: #ffff;
+}
+
+.mar-lr-pad-5{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hei-350{
+    height: 300px;
+    width: 100%;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: 500;
+    letter-spacing: 2px;
+    -webkit-text-stroke: violet 0.2px;
+}
+
+.sub-title{
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-text-stroke: violet 0.1px;
+}
+
+.icon{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(172, 0, 172);
+    opacity: 0.8;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+}
+
+.headerb{
+    height: 400px;
+}
+
+#mid-pag{
+    background-color: lightslategrey;
+    height: 600px;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+.mar-top{
+    margin-top: 30px;
+}
+
+button{
+    margin-top: 50px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color:violet;
+    color: violet;
+}
+
+.button-m{
+    margin-top: 50px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color:purple;
+    color:purple;
+}
+
+.we-50{
+    width: 50%;
+}
+
+footer{
+    height: 800px;
+    background-color: violet;
+}
+
+.pad-top{
+    padding-top: 5%;
+}
+
+.input-text{
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: #ffff solid 1.5px;
+}
+
+.input-text::placeholder{
+    color: white;
+    padding-left: 5%;
+}
+
+.input-msg{
+    width: 90%;
+    height: 200px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #ffff 1.5px;
+}
+
+.input-msg::placeholder{
+    color: white;
+    padding-left: 40px;
+    padding-top: 15px;
+    position: absolute;
+}
+
+.title-text{
+    color: #ffff;
+    position: absolute;
+    margin-bottom: 4%;
+    margin-right: 36%;
+}
+
+.title-msg{
+    color: #ffff;
+    position: absolute;
+    margin-bottom: 12%;
+    margin-right: 85%;
+}
+
+.pad-left{
+    padding-left: 150px;
+}
